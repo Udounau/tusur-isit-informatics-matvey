@@ -13,4 +13,4 @@ def month_calendar(start_weekday, days):
         week_string = " ".join(formatted_days).rstrip()
         weeks.append(week_string)
     return "\n".join(weeks)
-print(month_calendar(6, 31))
+month_calendar(6, 31)
